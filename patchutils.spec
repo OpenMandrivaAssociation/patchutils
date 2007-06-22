@@ -8,9 +8,9 @@ Summary: Patches utilities
 Name:    patchutils
 Version: 0.2.31
 %if %beta
-Release: 0.1%{pre}mdk
+Release: %mkrel 0.1%{pre}
 %else
-Release: 1mdk
+Release: %mkrel 2
 %endif
 %if %beta
 Source0: %name-%version%pre.tar.bz2
