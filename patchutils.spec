@@ -21,6 +21,7 @@ Patch: patchutils-0.2.11-editdiff-man.diff.bz2
 URL: http://cyberelk.net/tim/patchutils/
 License: GPL
 Group: Text tools
+BuildRoot: %_tmppath/%name-buildroot
 Provides: interdiff
 Obsoletes: interdiff
 Requires: patch diffutils
