@@ -10,7 +10,7 @@ Version: 0.2.31
 %if %beta
 Release: %mkrel 0.1%{pre}
 %else
-Release: %mkrel 2
+Release: %mkrel 4
 %endif
 %if %beta
 Source0: %name-%version%pre.tar.bz2
