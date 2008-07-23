@@ -6,16 +6,17 @@
 
 Summary: Patches utilities 
 Name:    patchutils
-Version: 0.2.31
+Version: 0.3.0
 %if %beta
 Release: %mkrel 0.1%{pre}
 %else
-Release: %mkrel 4
+Release: %mkrel 1
 %endif
 %if %beta
 Source0: %name-%version%pre.tar.bz2
 %else
 Source0: %name-%version.tar.bz2
+Source1: %name-%version.tar.bz2.sig
 %endif
 Patch: patchutils-0.2.11-editdiff-man.diff.bz2
 URL: http://cyberelk.net/tim/patchutils/
