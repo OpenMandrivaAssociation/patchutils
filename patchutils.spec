@@ -7,10 +7,11 @@ Group:		Text tools
 URL:		http://cyberelk.net/tim/software/patchutils/
 Source0:	http://cyberelk.net/tim/data/patchutils/stable/%{name}-%{version}.tar.bz2
 Source1:	%{SOURCE0}.sig
-Provides:	interdiff
-Obsoletes:	interdiff < 0.3.1
+Patch0:		patchutils-0.3.1-format_not_a_string_literal_and_no_format_arguments.patch
 Requires:	patch
 Requires:	diffutils
+Provides:	interdiff
+Obsoletes:	interdiff < 0.3.1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
@@ -24,6 +25,7 @@ on modified files matching shell wildcards.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure2_5x
@@ -35,7 +37,6 @@ make tests
 %install
 rm -rf %{buildroot}
 %makeinstall_std
-#install -m 644 editdiff.1 $RPM_BUILD_ROOT%_mandir/man1/
 
 %clean
 rm -rf %{buildroot}
