@@ -1,7 +1,7 @@
 Summary:	Patches utilities 
 Name:		patchutils
 Version:	0.3.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
 Group:		Text tools
 URL:		http://cyberelk.net/tim/software/patchutils/
