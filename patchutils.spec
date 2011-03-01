@@ -1,8 +1,8 @@
 Summary:	Patches utilities 
 Name:		patchutils
-Version:	0.3.1
-Release:	%mkrel 3
-License:	GPL
+Version:	0.3.2
+Release:	%mkrel 1
+License:	GPLv2+
 Group:		Text tools
 URL:		http://cyberelk.net/tim/software/patchutils/
 Source0:	http://cyberelk.net/tim/data/patchutils/stable/%{name}-%{version}.tar.bz2
