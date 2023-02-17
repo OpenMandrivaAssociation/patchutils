@@ -10,6 +10,8 @@ Requires:	patch
 Requires:	diffutils
 Provides:	interdiff
 Obsoletes:	interdiff < 0.3.1
+BuildRequires:	pkgconfig(libpcre2-posix)
+BuildRequires:	xmlto
 
 %description
 Patchutils contains interdiff and filterdiff.
