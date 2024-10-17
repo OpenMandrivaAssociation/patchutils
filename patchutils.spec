@@ -4,7 +4,7 @@ Version:	0.4.2
 Release:	1
 License:	GPLv2+
 Group:		Text tools
-URL:		http://cyberelk.net/tim/software/patchutils/
+URL:		https://cyberelk.net/tim/software/patchutils/
 Source0:	http://cyberelk.net/tim/data/patchutils/stable/%{name}-%{version}.tar.xz
 Requires:	patch
 Requires:	diffutils
