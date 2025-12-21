@@ -10,6 +10,11 @@ Requires:	patch
 Requires:	diffutils
 Provides:	interdiff
 Obsoletes:	interdiff < 0.3.1
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libpcre2-posix)
 BuildRequires:	xmlto
 
