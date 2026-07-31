@@ -1,6 +1,6 @@
 Summary:	Patches utilities 
 Name:		patchutils
-Version:	0.4.2
+Version:	0.4.5
 Release:	1
 License:	GPLv2+
 Group:		Text tools
