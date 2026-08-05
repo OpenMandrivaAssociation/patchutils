@@ -44,3 +44,4 @@ make tests
 %doc BUGS ChangeLog TODO COPYING
 %{_bindir}/*
 %{_mandir}/man1/*
+%{_datadir}/bash-completion/completions/
